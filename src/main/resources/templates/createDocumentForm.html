@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Create Document</title>
+    </head>
+    <body>
+        <div>
+            <h2>Create Document</h2>
+            <form action="/createDocument" method="post">
+                Title: <input type="input" size="40" name="title"/><br/><br/>
+                Body: <textarea type="text" rows="40" cols="40" name="body"/>
+                <input type="submit" value="Submit"/>
+            </form>
+        </div>
+    </body>
+</html>

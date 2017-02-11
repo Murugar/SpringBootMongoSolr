@@ -1,0 +1,6 @@
+build/
+startbucks-poc.iml startbucks-poc.ipr startbucks-poc.iws
+spring-boot-solr-mongo-demo.iml
+.gradle/ 
+.idea/
+/bin/
